@@ -29,7 +29,7 @@ The second application (in progress) is to be able to analyze strategy more in d
 
 ### Authors
 
-* **Jacob Danovitch** - Creator of project - [Danolytics](danolytics.com)
+* **Jacob Danovitch** - Creator of project - [Danolytics](http://danolytics.com)
 
 #### Acknowledgments
 
