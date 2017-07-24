@@ -6,18 +6,6 @@ library(ggplot2)
 library(ggthemes)
 library(randomForest)
 
-########################   SQL Queries   ##########################################
-
-
-
-
-recent <- dbSendQuery(db, sql("SELECT *
-                           FROM Random_Forest
-                         WHERE CAST(substr(gameday_link,5,4) AS INT) > 2012"))
-
-
-
-
 
 
 #######################   GROUPED STATE RF MODEL   #######################
@@ -203,6 +191,10 @@ write.csv(thisyear, "FullData.csv")
 #######################   PBP-based RF Model   ##################################
 
 ###Select all data from 2013 onwards
+
+recent <- dbSendQuery(db, sql("SELECT *
+                              FROM Random_Forest
+                              WHERE CAST(substr(gameday_link,5,4) AS INT) > 2012"))
 data <- dbFetch(recent, n=-1)
 
 ###Cleaning data
