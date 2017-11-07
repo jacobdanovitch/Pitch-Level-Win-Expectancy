@@ -53,13 +53,9 @@ The second application is to be able to analyze strategy more in depth than prev
 * **R** - Used to create model and complete data analysis
 * **SQLite** - Used to manage Pitch F/X data
 
-### Authors
-
-* **Jacob Danovitch** - Creator of project - [Danolytics](http://danolytics.com)
-
 #### Acknowledgments
 
 * Mitchel Lichtman, co-author of "The Book: Playing the Percentages in Baseball" for his time and brain power assisting on this
 * The authors of the Pitch R/X library for making my life 1000x easier 
 * All my friends I annoyed endlessly about my ~~stupidity~~ various struggles with this project
-* Not SQLite (note to self: please switch db format to literally anything else)
+* Not SQLite (note to self: please switch db format to literally anything else, and never use this again)
